@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="horizontal">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="vertical" android:gravity="center_horizontal" android:layout_width="250dp">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:text="@string/nickname" android:layout_width="wrap_content"></TextView>
+        <EditText android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="200dp"></EditText>
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView3" android:text="@string/email" android:layout_width="wrap_content"></TextView>
+        <EditText android:id="@+id/editText2" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:layout_width="200dp">
+            <requestFocus></requestFocus>
+        </EditText>
+        <Button android:layout_height="wrap_content" android:text="@string/register" android:layout_width="wrap_content" android:id="@+id/registerDetails"></Button>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/waitress"></RelativeLayout>
+    
+</LinearLayout>

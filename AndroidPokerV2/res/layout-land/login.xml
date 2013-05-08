@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:gravity="center_horizontal" android:orientation="horizontal">
+    <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical" android:gravity="center_horizontal" android:layout_width="282dp">
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nickname"></TextView>
+        <EditText android:id="@+id/nickNameId" android:layout_height="wrap_content" android:layout_width="138dp">
+        	<requestFocus></requestFocus>
+        </EditText>
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/enterPin"></TextView>
+        <EditText android:id="@+id/pinId" android:layout_height="wrap_content" android:layout_width="130dp">
+        </EditText>
+        <Button android:id="@+id/btEnterPinId" android:layout_height="wrap_content" android:text="@string/enter" android:layout_width="69dp"></Button>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/waitress"></RelativeLayout>
+    
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, main!</string>
+	<string name="app_name">Alpha Poker</string>
+	<string name="welcome">Welcome to PokerTV</string>
+	<string name="register">Register</string>
+	<string name="ifyoareregister">if you are already registered, enter login
+	</string>
+	<string name="login">Login</string>
+	<string name="inserDetails"> Please, enter your details</string>
+	<string name="nickname">Nickname</string>
+	<string name="email">E-mail</string>
+	<string name="pin">PIN</string>
+	<string name="confirm">Confirm PIN</string>
+	<string name="enter">enter</string>
+	<string name="enterPin">Enter PIN</string>
+	<string name="waiting">WAITING</string>
+	<string name="messageLoby">Rooms available</string>
+	<string name="numberChips">enter the number of chips</string>
+	<string name="check">Check</string>
+	<string name="fold">Fold</string>
+	<string name="raise">Raise</string>
+	<string name="call">Call</string>
+	<string name="match">Partida::::Alpha Poker</string>
+	
+	<string name="minimun">min  </string>
+	<string name="maximun">max  </string>
+	<string name="bet">Bet  </string>
+	<string name="valorMaximun">5000</string>
+	<string name="valorMinimun">0</string>
+	<string name="valorBet">300</string>
+	<string name="valorChips"></string>
+	<string name="seekbar_from_touch"></string>
+	<string name="seekbar_tracking_on"></string>
+	<string name="seekbar_tracking_off"></string>
+	
+	<string-array name="roomsAvaliable" >
+		<item>Room PC</item>
+		<item>Room TV</item>
+	</string-array>
+
+</resources>

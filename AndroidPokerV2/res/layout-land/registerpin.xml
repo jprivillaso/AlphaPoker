@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:gravity="center_horizontal" android:orientation="horizontal">
+    <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="250dp" android:gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/pin"></TextView>
+        <EditText android:layout_weight="1" android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etpin1">
+        	<requestFocus></requestFocus>
+        </EditText>
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content" android:text="@string/confirm"></TextView>
+        <EditText android:layout_weight="1" android:layout_width="100dp" android:layout_height="wrap_content" android:id="@+id/etpin2">            </EditText>
+        <Button android:layout_width="wrap_content" android:id="@+id/enterPIN" android:layout_height="wrap_content" android:text="@string/enter"></Button>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/waitress"></RelativeLayout>
+    
+</LinearLayout>

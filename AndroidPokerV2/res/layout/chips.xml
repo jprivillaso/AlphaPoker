@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:gravity="center_horizontal" android:orientation="vertical">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:orientation="vertical" android:layout_width="280dp"
+		android:gravity="center_horizontal" android:layout_height="wrap_content">
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:textStyle="bold" android:textSize="20sp" android:text="@string/numberChips"
+			android:layout_height="wrap_content"></TextView>
+		<SeekBar  android:progress="1000" android:max="10000" android:id="@+id/seekBar1" android:thumb="@drawable/ficha"
+			 android:layout_width="220dp"
+			android:layout_height="wrap_content"></SeekBar>
+		<TextView android:text="@string/valorChips" android:id="@+id/textView2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Button android:layout_height="wrap_content" android:text="@string/enter"
+			android:id="@+id/enterChips" android:layout_width="72dp"></Button>
+		<TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/chipsAvailable" android:typeface="normal"></TextView>
+		<TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" "></TextView>
+	</LinearLayout>
+	<RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/waitress"></RelativeLayout>
+
+</LinearLayout>

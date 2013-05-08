@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:weightSum="1" android:layout_height="200dp" android:layout_gravity="center" android:layout_width="match_parent" android:id="@+id/linearLayout2">
+        <LinearLayout android:id="@+id/linearLayout4" android:layout_gravity="right" android:layout_height="match_parent" android:layout_width="317dp" android:weightSum="1">
+            <ImageView android:id="@+id/imageView3" android:layout_width="124dp" android:layout_height="142dp" android:src="@drawable/face_1"></ImageView>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/backcard" android:id="@+id/imageView2"></ImageView>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/backcard" android:id="@+id/imageView1" android:layout_gravity="right"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:id="@+id/linearLayout1" android:layout_height="100dp"
+		android:weightSum="1">
+		<LinearLayout android:layout_height="match_parent"
+			android:id="@+id/linearLayout3" android:layout_width="match_parent">
+			<Button android:text="@string/check" android:layout_height="wrap_content"
+				android:layout_width="75dp" android:id="@+id/btnCheck"></Button>
+			<Button android:text="@string/fold" android:layout_height="wrap_content"
+				android:layout_width="91dp" android:id="@+id/btnFold"></Button>
+			<Button android:text="@string/raise" android:layout_height="wrap_content"
+				android:layout_width="86dp" android:id="@+id/btnRaise"></Button>
+			<Button android:layout_height="wrap_content" android:text="@string/call"
+				android:layout_width="match_parent" android:id="@+id/btnCall"></Button>
+		</LinearLayout>
+	</LinearLayout>
+	<RelativeLayout android:layout_height="83dp"
+		android:layout_width="wrap_content" android:id="@+id/relativeLayout1">
+		<SeekBar android:layout_width="match_parent" android:progress="0" android:id="@+id/seekBar1" android:thumb="@drawable/ficha" android:max="5000" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toRightOf="@+id/textView3" android:layout_toLeftOf="@+id/textView6"></SeekBar>
+		<TextView android:text="@string/minimun" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/textView3"></TextView>
+		<TextView android:text="@string/valorMaximun" android:layout_width="wrap_content" android:id="@+id/textView6" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_marginRight="26dp"></TextView>
+		<TextView android:text="@string/maximun" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignRight="@+id/seekBar1" android:layout_marginRight="24dp"></TextView>
+		<TextView android:text="@string/bet" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/textView4" android:layout_alignBottom="@+id/textView4" android:layout_centerHorizontal="true"></TextView>
+		<TextView android:text="@string/valorMinimun" android:layout_width="wrap_content" android:id="@+id/textView5" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/textView1" android:layout_marginLeft="15dp"></TextView>
+		<TextView android:text="@string/valorBet" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content" android:layout_above="@+id/seekBar1" android:layout_toLeftOf="@+id/textView2"></TextView>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView7" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:text=" "></TextView>
+	</RelativeLayout>
+
+</LinearLayout>

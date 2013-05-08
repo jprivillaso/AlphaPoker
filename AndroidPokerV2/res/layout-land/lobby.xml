@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" android:gravity="center_horizontal" android:orientation="horizontal">
+    <LinearLayout android:layout_height="match_parent" android:layout_width="250dp" android:orientation="vertical" android:gravity="center_horizontal" android:id="@+id/linearLayout1">
+        <Spinner android:layout_height="wrap_content" android:layout_width="161dp" android:id="@+id/roomsAvaliableId"></Spinner>
+        <Button android:layout_height="wrap_content" android:text="@string/enter" android:id="@+id/btnEnterLobby" android:layout_width="70dp"></Button>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/waitress"></RelativeLayout>
+
+</LinearLayout>

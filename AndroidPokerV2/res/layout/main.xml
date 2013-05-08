@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal">
+    <LinearLayout android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/linearLayout1" android:orientation="vertical">
+        <RelativeLayout android:layout_width="match_parent" android:id="@+id/relativeLayout1" android:layout_height="wrap_content">
+            <TextView android:text="@string/ifyoareregister" android:id="@+id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_horizontal"></TextView>
+            <Button android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_below="@+id/login" android:text="@string/register" android:layout_height="wrap_content" android:id="@+id/register"></Button>
+            <Button android:layout_width="wrap_content" android:text="@string/login" android:layout_height="wrap_content" android:id="@+id/login" android:layout_below="@+id/textView1" android:layout_marginTop="34dp" android:layout_alignLeft="@+id/register" android:layout_alignRight="@+id/register"></Button>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/waitress"></RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
